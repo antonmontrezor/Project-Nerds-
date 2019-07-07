@@ -7,10 +7,12 @@
 <body>
 <header class="main-header">
     <div class="container">
-        <div class="index-logo">
-            <img src="img/index-logo.png" width="200" height="122" alt="Дизайн-студия &laquo;Нёрдс&raquo;">
-        </div>
         <nav class="main-navigation">
+            <div class="studio-logo">
+                <figure>
+                    <img src="img/studio-logo.png" width="200" height="122" alt="Дизайн-студия &laquo;Нёрдс&raquo;">
+                </figure>
+            </div>
             <ul>
                 <li>
                     <a href="#">Студия</a>
@@ -35,66 +37,78 @@
     <div class="features">
         <b>Долго, дорого, скурпулезно.</b>
         <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-        <a class="btn" href="#">Узнай больше</a>
+        <a class="btn learn-more" href="#">Узнай больше</a>
     </div>
     <div class="offers">
         <div class="offers-web-sites">
-            <img src="img/first-offer.jpg" width="300" height="145" alt="Веб-сайты">
-            <h2>Веб-сайты</h2>
+            <figure>
+                <img src="img/web-sites.jpg" width="300" height="145" alt="Веб-сайты">
+            </figure>
+            <h2 class="index-title">Веб-сайты</h2>
             <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-            <a class="btn-order-sites" href="#">Заказать</a>
+            <a class="btn order sites" href="#">Заказать</a>
         </div>
         <div class="offers-applications">
-            <img src="img/second-offer.jpg" width="300" height="145" alt="Приложения">
-            <h2>Приложения</h2>
+            <figure>
+                <img src="img/applications.jpg" width="300" height="145" alt="Приложения">
+            </figure>
+            <h2 class="index-title">Приложения</h2>
             <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-            <a class="btn-order-applications" href="#">Заказать</a>
+            <a class="btn order applications" href="#">Заказать</a>
         </div>
         <div class="offers-presentations">
-            <img src="img/third-offer.jpg" width="300" height="145" alt="Презентации">
-            <h2>Презентации</h2>
+            <figure><img src="img/presentations.jpg" width="300" height="145" alt="Презентации"></figure>
+            <h2 class="index-title">Презентации</h2>
             <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-            <a class="btn-order-presentations" href="#">Заказать</a>
+            <a class="btn order presentations" href="#">Заказать</a>
         </div>
     </div>
-    <section class="about-us">
-        < class="about-us-left">
+    <div class="about-us">
+        <div class="about-us-left">
             <p><b>Мы - маленькая, но гордая дизайн-студия из Краснодара.</b></p>
             <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше
             креатива. Работаем не покладая рук, как роботы.</p>
             <b>Выполняем заказы на разработку:</b>
-            <ul>
-                <li>Веб-сайтов любой слоности</li>
+            <ul class="orders">
+                <li>Веб-сайтов любой сложности</li>
                 <li>Мобильных приложений для iOS и Android</li>
                 <li>Слайдшоу и видео для корпоративных презентаций</li>
             </ul>
         </div>
         <div class="about-us-right">
-            <img src="img/nerds.png" width="360" height="247" alt="Дизайн-студия &laquo;Нёрдс&raquo;">
-            <p><b>С 2004 года любим точность во всем:</b></p>
-            <ul>
-                <li>
-                    <b>146%</b>
-                    <p>Уровень самоотдачи</p>
-                </li>
-                <li>
-                    <b>100%</b>
-                    <p>Соблюдение сроков</p>
-                </li>
-                <li>
-                    <b>50%</b>
-                    <p>Минимальная предоплата</p>
-                </li>
-            </ul>
+            <div class="nerds-logo">
+                <figure>
+                    <img src="img/logo-nerds.png" width="360" height="247" alt="Дизайн-студия &laquo;Нёрдс&raquo;">
+                </figure>
+            </div>
+            <div class="assurance">
+                <p><b>С 2004 года любим точность во всем:</b></p>
+                <ul>
+                    <li>
+                        <b>146%</b>
+                        <p>Уровень самоотдачи</p>
+                    </li>
+                    <li>
+                        <b>100%</b>
+                        <p>Соблюдение сроков</p>
+                    </li>
+                    <li>
+                        <b>50%</b>
+                        <p>Минимальная предоплата</p>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </section>
+    </div>
     <div class="map" id="map">
         <div class="contacts">
-            <b>Nёrds design studio</b>
-            <p>191186, Санкт-Петербург,<br>
-                ул. Б. Конюшенная, д. 19/8</p>
-            <p>тел. +7 (812) 275-75-75</p>
-            <a class="btn" href="#">Напишите нам</a>
+            <p>
+                <b>Nёrds design studio</b><br>
+                191186, Санкт-Петербург,<br>
+                ул. Б. Конюшенная, д. 19/8<br>
+                тел. +7 (812) 275-75-75
+            </p>
+            <a class="btn message-us" href="#">Напишите нам</a>
         </div>
     </div>
 </main>
@@ -104,8 +118,8 @@
         <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
         <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
     </div>
-    <div class="social-networks-discount">
-        <p><strong>Давайте дружить, это выгодно!</strong></p>
+    <div class="discount">
+        <p><b>Давайте дружить, это выгодно!</b></p>
         <p>Скидка 10% для друзей из социальных сетей.</p>
     </div>
 </footer>

@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb7cbb89-8b1a-495a-8a07-92f06a622243" name="Default Changelist" comment="Закончил разметку первой страницы">
-      <change afterPath="$PROJECT_DIR$/.idea/Project-Nerds.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eb7cbb89-8b1a-495a-8a07-92f06a622243" name="Default Changelist" comment="поменял и доработал классы по всему документу">
+      <change afterPath="$PROJECT_DIR$/nerds-stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styleguide.psd" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/styleguide.psd" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,22 +15,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Project-Nerds" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="103" column="64" lean-forward="true" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
-              <folding>
-                <element signature="e#92#99#0" expanded="true" />
-                <element signature="e#104#111#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.41537425">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#92#99#0" expanded="true" />
+                    <element signature="e#104#111#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2295">
+                  <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/nerds-stylesheet.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="378">
+                  <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,32 +67,44 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$APPLICATION_CONFIG_DIR$/webstorm64.exe.vmoptions" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/nerds.catalog.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/barbershop-item.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/barbershop_shop.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/barbershop-price.html" />
+        <option value="$PROJECT_DIR$/nerds.catalog.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/nerds-stylesheet.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="906" />
-    <option name="width" value="994" />
-    <option name="height" value="980" />
+    <option name="x" value="920" />
+    <option name="width" value="995" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Project-Nerds" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Project-Nerds" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Project-Nerds" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project-Nerds" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project-Nerds" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project-Nerds" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Project-Nerds" type="b2602c69:ProjectViewProjectNode" />
@@ -87,18 +124,19 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS&#10;HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Project-Nerds\fonts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project-Nerds" />
       <recent name="D:\Project-Nerds\" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project-Nerds\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,7 +171,24 @@
       <workItem from="1560125183904" duration="224000" />
       <workItem from="1560125431110" duration="7700000" />
       <workItem from="1560296662778" duration="1205000" />
-      <workItem from="1560989163527" duration="1944000" />
+      <workItem from="1560989163527" duration="3511000" />
+      <workItem from="1561330162301" duration="328000" />
+      <workItem from="1562020424211" duration="170000" />
+      <workItem from="1562020612276" duration="48000" />
+      <workItem from="1562020676819" duration="38000" />
+      <workItem from="1562020740672" duration="735000" />
+      <workItem from="1562282452851" duration="9377000" />
+      <workItem from="1562514755865" duration="238000" />
+      <workItem from="1562515075584" duration="6926000" />
+      <workItem from="1562522359721" duration="1170000" />
+      <workItem from="1562523598288" duration="19000" />
+      <workItem from="1562531760875" duration="4385000" />
+      <workItem from="1562536305839" duration="522000" />
+      <workItem from="1563497703127" duration="326000" />
+      <workItem from="1564183113655" duration="1327000" />
+      <workItem from="1564184523687" duration="291000" />
+      <workItem from="1564536472387" duration="76000" />
+      <workItem from="1564957838270" duration="6704000" />
     </task>
     <task id="LOCAL-00001" summary="Закончил разметку первой страницы">
       <created>1560133275854</created>
@@ -142,16 +197,79 @@
       <option name="project" value="LOCAL" />
       <updated>1560133275854</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сменил тег b на h4, добавил карту в основной контент страницы, случайно залил ненужные файлы в предыдущем коммите">
+      <created>1560991310886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560991310886</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Сменил тег b на h4, добавил карту в основной контент страницы, случайно залил ненужные файлы в предыдущем коммите">
+      <created>1560991330431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560991330431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="решил сделать веб-сайты и прочее завернутым в тег h2, убрал тег h2 с &quot;маленькой студии&quot;, по совету решил,что это не заголовок, а лид. Обернул в тег b">
+      <created>1562021220406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562021220406</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Сделал верстку одноименного макета из проекта">
+      <created>1562291785179</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562291785179</updated>
+    </task>
+    <task id="LOCAL-00006" summary="поменял и доработал классы по всему документу">
+      <created>1562536096235</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562536096235</updated>
+    </task>
+    <task id="LOCAL-00007" summary="поменял и доработал классы по всему документу">
+      <created>1562536746624</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562536746624</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14743000" />
+    <option name="totallyTimeSpent" value="48990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14210178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925706" visible="true" weight="0.019828156" />
+      <window_info id="Structure" order="1" sideWeight="0.5007429" side_tool="true" weight="0.055518836" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007429" side_tool="true" weight="0.055518836" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.04249292" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0548579" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -163,28 +281,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46600565" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24983476" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -193,9 +292,53 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Закончил разметку первой страницы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Закончил разметку первой страницы" />
+    <MESSAGE value="Сменил тег b на h4, добавил карту в основной контент страницы, случайно залил ненужные файлы в предыдущем коммите" />
+    <MESSAGE value="решил сделать веб-сайты и прочее завернутым в тег h2, убрал тег h2 с &quot;маленькой студии&quot;, по совету решил,что это не заголовок, а лид. Обернул в тег b" />
+    <MESSAGE value="Сделал верстку одноименного макета из проекта" />
+    <MESSAGE value="поменял и доработал классы по всему документу" />
+    <option name="LAST_COMMIT_MESSAGE" value="поменял и доработал классы по всему документу" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/preview/nerds-catalog.jpg">
@@ -213,17 +356,95 @@
     <entry file="file://$PROJECT_DIR$/nerds-catalog.psd">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/webstorm64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="103" column="64" lean-forward="true" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+          <folding>
+            <element signature="e#3257#3264#0" expanded="true" />
+            <element signature="e#3275#3282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/nerds.catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="153" column="7" selection-start-line="153" selection-start-column="7" selection-end-line="153" selection-end-column="7" />
           <folding>
             <element signature="e#92#99#0" expanded="true" />
             <element signature="e#104#111#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/barbershop-price.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/barbershop-item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="83" column="27" lean-forward="true" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+          <folding>
+            <element signature="e#1060#1067#0" expanded="true" />
+            <element signature="e#1332#1339#0" expanded="true" />
+            <element signature="e#1359#1366#0" expanded="true" />
+            <element signature="e#3260#3267#0" expanded="true" />
+            <element signature="e#3278#3285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Project Barbershop/Project Barbershop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="128" column="38" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/barbershop_shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/nerds-stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="43" column="23" lean-forward="true" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="e#92#99#0" expanded="true" />
+            <element signature="e#104#111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nerds-stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>

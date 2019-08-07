@@ -10,14 +10,12 @@
 }
 
 .container {
-    /* для сетки */
     width: 1200px;
-    min-height: 545px;
     padding: 0 20px;
     margin: 0 auto;
 }
 
-.index-logo {
+.studio-logo {
     width: 160px;
     height: 65px;
     margin-top: 50px;
@@ -54,6 +52,7 @@
     width: 300px;
     padding-right: 60px;
     margin-right: 40px;
+    margin-bottom: 80px;
 }
 
 .index-content-top > div:first-child {
@@ -70,6 +69,77 @@
     float: left;
 }
 
+.index-content-center {
+    height: 710px;
+    padding-top: 40px;
+    margin-bottom: 80px;
+}
+
+.about-us-left {
+    width: 700px;
+    height: 490px;
+    float: left;
+    margin-right: 60px;
+}
+
+.about-us-right {
+    width: 400px;
+    height: 490px;
+    float: right;
+}
+
+.index-content-bottom {
+    height: 420px;
+}
+
+.main-footer {
+    /* для разметки */
+    max-height: 220px;
+}
+
+
+.social-networks {
+    width: 300px;
+    height: 80px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 60px;
+    float: left;
+
+}
+
+.discount-offer {
+    width: 800px;
+    height: 80px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    float: right;
+}
+
+.main-footer .container {
+    height: 220px;
+  }
+
+.main-header {
+    min-height: 355px;
+    margin-bottom: 55px;
+}
+
+.container {
+   /* только для сетки*/
+    min-height: 355px;
+}
+
+.caption {
+    height: 220px;
+    width: 1160px;
+}
+
+
+
+
+
+
 
 
 
@@ -80,6 +150,7 @@ div {
 .container,
 .features,
 .main-header,
+.index-header,
 .main-footer,
 nav {
     border: solid 1px green;

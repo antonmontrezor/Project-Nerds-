@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb7cbb89-8b1a-495a-8a07-92f06a622243" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nerds-stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/nerds-stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nerds.catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/nerds.catalog.html" afterDir="false" />
     </list>
@@ -26,8 +25,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+                <state relative-caret-position="1768">
+                  <caret line="122" column="7" lean-forward="true" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
                   <folding>
                     <element signature="e#92#99#0" expanded="true" />
                     <element signature="e#104#111#0" expanded="true" />
@@ -39,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+                <state relative-caret-position="-113">
+                  <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -52,8 +51,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nerds-stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="303">
-                  <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+                <state relative-caret-position="523">
+                  <caret line="199" column="21" selection-start-line="199" selection-start-column="21" selection-end-line="199" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -89,6 +88,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Project-Nerds" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Project-Nerds" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,17 +114,6 @@
               <item name="Project-Nerds" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Project-Nerds" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="D:\Project-Nerds" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -190,7 +189,8 @@
       <workItem from="1564184523687" duration="291000" />
       <workItem from="1564536472387" duration="76000" />
       <workItem from="1564957838270" duration="6840000" />
-      <workItem from="1565135784922" duration="6122000" />
+      <workItem from="1565135784922" duration="6267000" />
+      <workItem from="1565225875238" duration="3975000" />
     </task>
     <task id="LOCAL-00001" summary="Закончил разметку первой страницы">
       <created>1560133275854</created>
@@ -248,11 +248,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564965946341</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="поменял и добавил классы">
+      <created>1565142308962</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1565142308962</updated>
+    </task>
+    <task id="LOCAL-00010" summary="поработал над сеткой">
+      <created>1565142328051</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565142328051</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55248000" />
+    <option name="totallyTimeSpent" value="59368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -270,7 +284,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.04249292" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.04249292" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -347,7 +361,9 @@
     <MESSAGE value="решил сделать веб-сайты и прочее завернутым в тег h2, убрал тег h2 с &quot;маленькой студии&quot;, по совету решил,что это не заголовок, а лид. Обернул в тег b" />
     <MESSAGE value="Сделал верстку одноименного макета из проекта" />
     <MESSAGE value="поменял и доработал классы по всему документу" />
-    <option name="LAST_COMMIT_MESSAGE" value="поменял и доработал классы по всему документу" />
+    <MESSAGE value="поменял и добавил классы" />
+    <MESSAGE value="поработал над сеткой" />
+    <option name="LAST_COMMIT_MESSAGE" value="поработал над сеткой" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/preview/nerds-catalog.jpg">
@@ -434,8 +450,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="1768">
+          <caret line="122" column="7" lean-forward="true" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
           <folding>
             <element signature="e#92#99#0" expanded="true" />
             <element signature="e#104#111#0" expanded="true" />
@@ -445,15 +461,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="-113">
+          <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nerds-stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="124" column="24" selection-start-line="124" selection-start-column="24" selection-end-line="124" selection-end-column="24" />
+        <state relative-caret-position="523">
+          <caret line="199" column="21" selection-start-line="199" selection-start-column="21" selection-end-line="199" selection-end-column="21" />
         </state>
       </provider>
     </entry>

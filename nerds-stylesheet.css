@@ -88,7 +88,7 @@
     float: right;
 }
 
-.index-content-bottom {
+.map {
     height: 420px;
 }
 
@@ -97,7 +97,6 @@
     max-height: 220px;
 }
 
-
 .social-networks {
     width: 300px;
     height: 80px;
@@ -105,7 +104,6 @@
     margin-bottom: 70px;
     margin-right: 60px;
     float: left;
-
 }
 
 .discount-offer {
@@ -125,23 +123,77 @@
     margin-bottom: 55px;
 }
 
-.container {
-   /* только для сетки*/
-    min-height: 355px;
-}
-
 .caption {
     height: 220px;
-    width: 1160px;
+    clear: both;
 }
 
+.shop-content-left {
+    width: 300px;
+    max-height: 785px;
+    float: left;
+    margin-right: 60px;
+}
 
+.shop-content-right {
+    width: 760px;
+    height: 2175px;
+    float: right;
+}
 
+.content-price {
+    width: 300px;
+    height: 80px;
+}
 
+.content-net,
+.content-features {
+    width: 300px;
+    height: 180px;
+}
 
+.content-features {
+    width: 300px;
+    height: 290px;
+}
 
+.form-submit {
+    width: 300px;
+    height: 55px;
+}
 
+.sort {
+    width: 760px;
+    height: 80px;
+}
 
+.item {
+    width: 360px;
+    height: 615px;
+    margin-bottom: 40px;
+}
+
+.sedona,
+.borodinski,
+.aplus {
+    float: left;
+    margin-right: 30px; /*40px*/
+}
+
+.pink,
+.mishka,
+.kvast {
+    float: right;
+}
+
+.page-selection {
+    width: 760px;
+    height: 120px;
+}
+
+.shop-content-bottom {
+    margin-top: 10px;
+}
 
 div {
     border: solid 1px red;

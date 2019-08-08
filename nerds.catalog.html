@@ -35,8 +35,8 @@
         </div>
     </div>
 </header>
-<main class="container">
-    <div class="shop-content">
+<main>
+    <div class="container clearfix">
         <div class="shop-content-left">
             <form action="cognizant.com" method="get">
                 <div class="content-price">
@@ -56,21 +56,21 @@
                 </div>
                 <div class="content-net">
                     <h2 class="catalog-subheading">Сетка:</h2>
-                    <ul class="net">
-                        <li><label><input type="radio" name="net-type" value="adaptive" checked>Адаптивная</label></li>
-                        <li><label><input type="radio" name="net-type" value="fixed">Фиксированная</label></li>
-                        <li><label><input type="radio" name="net-type" value="rubber">Резиновая</label></li>
-                    </ul>
+                    <div class="net">
+                        <label><input type="radio" name="net-type" value="adaptive" checked>Адаптивная</label>
+                        <label><input type="radio" name="net-type" value="fixed">Фиксированная</label>
+                        <label><input type="radio" name="net-type" value="rubber">Резиновая</label>
+                    </div>
                 </div>
                 <div class="content-features">
                     <h2 class="catalog-subheading">Особенности:</h2>
-                    <ul class="features">
-                        <li><label><input type="checkbox" checked>Слайдер</label></li>
-                        <li><label><input type="checkbox" >Блок преимуществ</label></li>
-                        <li><label><input type="checkbox" checked>Новости</label></li>
-                        <li><label><input type="checkbox" >Галерея</label></li>
-                        <li><label><input type="checkbox" >Корзина</label></li>
-                    </ul>
+                    <div class="list-features">
+                        <label><input type="checkbox" checked>Слайдер</label>
+                        <label><input type="checkbox" >Блок преимуществ</label>
+                        <label><input type="checkbox" checked>Новости</label>
+                        <label><input type="checkbox" >Галерея</label>
+                        <label><input type="checkbox" >Корзина</label>
+                    </div>
                 </div>
                 <div class="form-submit">
                     <input class="btn action submit" type="submit" value="Показать">
@@ -90,8 +90,8 @@
                     <li><a href="#"></a></li>
                 </ul>
             </div>
-            <div class="shop-catalog">
-                <div class="catalog-item">
+            <div class="shop-catalog clearfix">
+                <div class="item sedona">
                     <div>
                         <img src="img/sedona.jpg" width="361" height="348" alt="Информационный сайт для туристов &laquo;Седона&raquo;">
                     </div>
@@ -102,40 +102,30 @@
                         <a class="btn purchase" href="#">9900 Руб.</a>
                     </div>
                 </div>
-                <div class="catalog-item">
-                    <div class="catalog-item-pink">
-                        <figure>
-                            <img src="img/pink.jpg" width="360" height="575" alt="Мобильное приложение &laquo;Пинк&raquo;">
-                        </figure>
-                    </div>
+                <div class="item pink">
+                    <figure>
+                        <img src="img/pink.jpg" width="360" height="575" alt="Мобильное приложение &laquo;Пинк&raquo;">
+                    </figure>
                 </div>
-                <div class="catalog-item">
-                    <div class="catalog-item-borodinski">
-                        <figure>
-                            <img src="img/borodinski.jpg" width="360" height="575" alt="Барбершоп &laquo;Бородинский&raquo;">
-                        </figure>
-                    </div>
+                <div class="item borodinski">
+                    <figure>
+                        <img src="img/borodinski.jpg" width="360" height="575" alt="Барбершоп &laquo;Бородинский&raquo;">
+                    </figure>
                 </div>
-                <div class="catalog-item">
-                    <div class="catalog-item-mishka">
-                        <figure>
-                            <img src="img/mishka.jpg" width="360" height="575" alt="Онлайн магазин &laquo;Мишка&raquo;">
-                        </figure>
-                    </div>
+                <div class="item mishka">
+                    <figure>
+                        <img src="img/mishka.jpg" width="360" height="575" alt="Онлайн магазин &laquo;Мишка&raquo;">
+                    </figure>
                 </div>
-                <div class="catalog-item">
-                    <div class="catalog-item-aplus">
-                        <figure>
-                            <img src="img/aplus.jpg" width="360" height="575" alt="Сервис &laquo;А+&raquo;">
-                        </figure>
-                    </div>
+                <div class="item aplus">
+                    <figure>
+                        <img src="img/aplus.jpg" width="360" height="575" alt="Сервис &laquo;А+&raquo;">
+                    </figure>
                 </div>
-                <div class="catalog-item">
-                    <div class="catalog-item-kvast">
-                        <figure>
-                            <img src="img/kvast.jpg" width="360" height="575" alt="Крафтовый квас &laquo;Кваст&raquo;">
-                        </figure>
-                    </div>
+                <div class="item kvast">
+                    <figure>
+                        <img src="img/kvast.jpg" width="360" height="575" alt="Крафтовый квас &laquo;Кваст&raquo;">
+                    </figure>
                 </div>
             </div>
             <div class="page-selection">
@@ -146,29 +136,33 @@
                     <li><a class="btn action next" href="#">Следующая</a></li>
                 </ul>
             </div>
-            <div class="map" id="map">
-                <div class="contacts">
-                    <p>
-                        <b>Nёrds design studio</b><br>
-                        191186, Санкт-Петербург,<br>
-                        ул. Б. Конюшенная, д. 19/8<br>
-                        тел. +7 (812) 275-75-75
-                    </p>
-                    <a class="btn message-us" href="#">Напишите нам</a>
-                </div>
+        </div>
+    </div>
+    <div class="shop-content-bottom">
+        <div class="map" id="map">
+            <div class="contacts">
+                <p>
+                    <b>Nёrds design studio</b><br>
+                    191186, Санкт-Петербург,<br>
+                    ул. Б. Конюшенная, д. 19/8<br>
+                    тел. +7 (812) 275-75-75
+                </p>
+                <a class="btn message-us" href="#">Напишите нам</a>
             </div>
         </div>
     </div>
 </main>
 <footer class="main-footer">
-    <div class="social-networks">
-        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-    </div>
-    <div class="discount">
-        <p><b>Давайте дружить, это выгодно!</b></p>
-        <p>Скидка 10% для друзей из социальных сетей.</p>
+    <div class="container clearfix">
+        <div class="social-networks">
+            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </div>
+        <div class="discount-offer">
+            <p><b>Давайте дружить, это выгодно!</b></p>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+        </div>
     </div>
 </footer>
 </body>

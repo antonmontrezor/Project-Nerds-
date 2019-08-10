@@ -4,7 +4,6 @@
     <list default="true" id="eb7cbb89-8b1a-495a-8a07-92f06a622243" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nerds-stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/nerds-stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nerds.catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/nerds.catalog.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +24,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1768">
-                  <caret line="122" column="7" lean-forward="true" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
+                <state relative-caret-position="-1719">
+                  <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
                   <folding>
                     <element signature="e#92#99#0" expanded="true" />
                     <element signature="e#104#111#0" expanded="true" />
@@ -38,8 +37,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-113">
-                  <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+                <state relative-caret-position="935">
+                  <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -51,8 +50,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nerds-stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="523">
-                  <caret line="199" column="21" selection-start-line="199" selection-start-column="21" selection-end-line="199" selection-end-column="21" />
+                <state relative-caret-position="367">
+                  <caret line="180" column="26" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -190,7 +189,8 @@
       <workItem from="1564536472387" duration="76000" />
       <workItem from="1564957838270" duration="6840000" />
       <workItem from="1565135784922" duration="6267000" />
-      <workItem from="1565225875238" duration="3975000" />
+      <workItem from="1565225875238" duration="5626000" />
+      <workItem from="1565407383895" duration="3357000" />
     </task>
     <task id="LOCAL-00001" summary="Закончил разметку первой страницы">
       <created>1560133275854</created>
@@ -262,17 +262,31 @@
       <option name="project" value="LOCAL" />
       <updated>1565142328051</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="поработал над сеткой">
+      <created>1565230041916</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1565230041916</updated>
+    </task>
+    <task id="LOCAL-00012" summary="поменял классы для удобства. переверстал чуть-чуть">
+      <created>1565230071525</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1565230071525</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59368000" />
+    <option name="totallyTimeSpent" value="64376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925706" visible="true" weight="0.019828156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925706" visible="true" weight="0.05750165" />
       <window_info id="Structure" order="1" sideWeight="0.5007429" side_tool="true" weight="0.055518836" />
       <window_info id="Favorites" order="2" sideWeight="0.5007429" side_tool="true" weight="0.055518836" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,7 +298,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5991501" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -363,7 +377,8 @@
     <MESSAGE value="поменял и доработал классы по всему документу" />
     <MESSAGE value="поменял и добавил классы" />
     <MESSAGE value="поработал над сеткой" />
-    <option name="LAST_COMMIT_MESSAGE" value="поработал над сеткой" />
+    <MESSAGE value="поменял классы для удобства. переверстал чуть-чуть" />
+    <option name="LAST_COMMIT_MESSAGE" value="поменял классы для удобства. переверстал чуть-чуть" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/preview/nerds-catalog.jpg">
@@ -450,8 +465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="122" column="7" lean-forward="true" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
+        <state relative-caret-position="-1719">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding>
             <element signature="e#92#99#0" expanded="true" />
             <element signature="e#104#111#0" expanded="true" />
@@ -461,15 +476,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="109" column="33" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+        <state relative-caret-position="935">
+          <caret line="166" column="9" selection-start-line="166" selection-start-column="9" selection-end-line="166" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nerds-stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="199" column="21" selection-start-line="199" selection-start-column="21" selection-end-line="199" selection-end-column="21" />
+        <state relative-caret-position="367">
+          <caret line="180" column="26" selection-start-line="180" selection-start-column="26" selection-end-line="180" selection-end-column="26" />
         </state>
       </provider>
     </entry>

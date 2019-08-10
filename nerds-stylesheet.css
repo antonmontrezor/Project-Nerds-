@@ -11,44 +11,44 @@
 }
 
 .studio-logo {
+    float: left;
     width: 160px;
     height: 65px;
     margin-top: 50px;
     margin-bottom: 20px;
     margin-right: 30px; /*40px*/
-    float: left;
 }
 
 .main-navigation {
+    float: left;
     width: 760px;
     height: 65px;
     margin-top: 50px;
     margin-bottom: 20px;
     margin-right: 40px;
-    float: left;
 }
 
 .user-block {
+    float: right;
     width: 160px;
     height: 65px;
     margin-top: 50px;
     margin-bottom: 20px;
-    float: right;
 }
 
 .features {
-    height: 415px;
-    width: 400px;
     float: left;
+    width: 400px;
+    height: 415px;
 }
 
 .index-content-top > div {
-    height: 430px;
     width: 300px;
+    height: 430px;
     padding-top: 80px;
     padding-right: 60px;
-    margin-right: 35px; /*40px*/
     margin-bottom: 80px;
+    margin-right: 35px; /*40px*/
 }
 
 .index-content-top > div:first-child,
@@ -67,16 +67,16 @@
 }
 
 .about-us-left {
+    float: left;
     width: 700px;
     height: 490px;
-    float: left;
     margin-right: 50px; /*60*/
 }
 
 .about-us-right {
+    float: right;
     width: 400px;
     height: 490px;
-    float: right;
 }
 
 .map {
@@ -84,26 +84,21 @@
 }
 
 .social-networks {
+    float: left;
     width: 300px;
     height: 80px;
     margin-top: 70px;
     margin-bottom: 70px;
     margin-right: 50px; /*60px*/
-    float: left;
 }
 
 .discount-offer {
+    float: right;
     width: 800px;
     height: 80px;
     margin-top: 70px;
     margin-bottom: 70px;
-    float: right;
 }
-
-
-/*.main-header {
-    margin-bottom: 55px;
-}*/
 
 .caption {
     height: 220px;
@@ -111,40 +106,39 @@
 }
 
 .shop-content-left {
+    float: left;
     width: 300px;
     height: 2230px;
-    float: left;
     margin-right: 90px; /*100*/
 }
 
 .shop-content-right {
+    float: right;
     width: 760px;
     height: 2230px;
-    float: right;
+}
+
+.content-price,
+.content-net,
+.content-features,
+.form-submit {
+    width: 260px;
+    padding-right: 40px;
 }
 
 .content-price {
-    width: 260px;
     height: 320px;
-    padding-right: 40px;
 }
-
 .content-net {
-    width: 260px;
     height: 190px;
-    padding-right: 40px;
 }
 
 .content-features {
-    width: 260px;
     height: 275px;
-    padding-right: 40px;
 }
 
 .form-submit {
-    width: 260px;
     height: 50px;
-    padding-right: 40px;
 }
 
 .sort {

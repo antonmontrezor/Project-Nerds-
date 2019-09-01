@@ -1,0 +1,192 @@
+.container {
+    width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.studio-logo {
+    width: 160px;
+    height: 65px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.main-navigation {
+    width: 760px;
+    height: 65px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.nav-list,
+.sort-words,
+.sort-arrows,
+.selection {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.user-block {
+    width: 160px;
+    height: 65px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.features {
+    width: 400px;
+    height: 415px;
+}
+
+.index-content-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.index-content-top > div {
+    width: 300px;
+    height: 430px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.index-content-top > div:last-child {
+    margin-right: 60px;
+}
+
+.index-content-center {
+    height: 790px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.about-us-left {
+    width: 660px;
+    height: 385px;
+    padding: 70px 0;
+}
+
+.about-us-right {
+    width: 360px;
+    height: 415px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.map {
+    min-height: 420px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-networks {
+    width: 260px;
+    height: 80px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.discount-offer {
+    width: 560px;
+    height: 80px;
+    margin-top: 70px;
+    margin-right: 200px;
+    margin-bottom: 70px;
+}
+
+.caption {
+    height: 75px;
+    width: 760px;
+    padding: 65px 200px 100px 200px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop-content-left {
+    width: 260px;
+    height: 2230px;
+}
+
+.shop-content-right {
+    width: 760px;
+    height: 2230px;
+}
+
+.content-price,
+.content-net,
+.content-features,
+.form-submit {
+    width: 260px;
+}
+
+.content-price {
+    height: 320px;
+}
+.content-net {
+    height: 190px;
+}
+
+.content-features {
+    height: 275px;
+}
+
+.form-submit {
+    height: 50px;
+}
+
+.shop-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 1925px;
+}
+
+.sort {
+    width: 760px;
+    height: 135px;
+}
+
+.item {
+    width: 360px;
+    height: 615px;
+}
+
+.page-selection {
+    width: 760px;
+    height: 170px;
+}
+
+/*Вспомогательные элементы*/
+
+div {
+    border: solid 1px red;
+}
+
+.container,
+.features,
+.main-header,
+.index-header,
+.main-footer,
+nav {
+    border: solid 1px green;
+}
+
+p,
+li,
+h2 {
+    border: solid 1px blue;
+}

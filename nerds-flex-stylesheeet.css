@@ -1,3 +1,31 @@
+/* Fonts */
+
+body {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    font-weight: normal;
+}
+
+.index-title {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.catalog-subheading {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* flex*/
+
 .container {
     width: 1160px;
     padding: 0 20px;
@@ -169,6 +197,7 @@
     width: 760px;
     height: 170px;
 }
+
 
 /*Вспомогательные элементы*/
 

@@ -42,8 +42,10 @@
                 <div class="content-price">
                     <h2 class="catalog-subheading">Стоимость:</h2>
                     <div class="slider">
-                        <input type="range" name="money-units" min="0" max="15000">
-                        <input type="range" name="money-units" min="0" max="15000">
+                        <label class="visually-hidden" for="slider-1">Первый слайдер</label>
+                        <input type="range" id="slider-1" name="money-units" min="0" max="15000">
+                        <label class="visually-hidden" for="slider-2">Второй слайдер</label>
+                        <input type="range" id="slider-2" name="money-units" min="0" max="15000">
                     </div>
                     <div class="slider-value">
                         <div class="min-value">
@@ -73,7 +75,8 @@
                     </div>
                 </div>
                 <div class="form-submit">
-                    <input class="btn action submit" type="submit" value="Показать">
+                    <label class="visually-hidden" for="form-button">Кнопка отправки формы</label>
+                    <input class="btn action submit" id="form-button" type="submit" value="Показать">
                 </div>
             </form>
         </div>
@@ -86,8 +89,8 @@
                     <li><a href="#">По названию</a></li>
                 </ul>
                 <ul class="sort-arrows">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <li><a href="#">Первая стрелка сортировки товаров</a></li>
+                    <li><a href="#">Вторая стрелка сотрировки товаров</a></li>
                 </ul>
             </div>
             <div class="shop-catalog ">
@@ -129,7 +132,7 @@
         </div>
     </div>
     <div class="shop-content-bottom">
-        <div class="map" id="map">
+        <div class="map">
             <div class="contacts">
                 <p>
                     <b>Nёrds design studio</b><br>

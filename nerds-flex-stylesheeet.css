@@ -1,23 +1,103 @@
 /* Fonts */
 
 body {
-    font-family: "Roboto Regular", sans-serif;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #283136;
-    font-weight: normal;
+    font-weight: 400;
+
+    background-image: url("img/white back background.png");
+    background-repeat: no-repeat;
 }
 
+.index-header {
+    background-image: url("img/grey back.png");
+    background-repeat: repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.studio-logo:hover,
+.studio-logo:focus {
+    opacity: 0.8;
+}
+
+.studio-logo:active {
+    opacity: 0.3;
+}
+
+.main-navigation ul,
+.main-navigation li{
+    display: inline-block;
+}
+
+.main-navigation .nav-list {
+    list-style: none;
+}
+.main-navigation li{
+    border: none;
+}
+
+.main-navigation a,
+.user-block a {
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000000;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus,
+.user-block a:hover,
+.user-block a:focus {
+    color: #fb565a;
+}
+
+.main-navigation a:active,
+.user-block a:active {
+    color: #000000;
+    opacity: 0.3;
+}
+
+.features > b {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 55px;
+    color: #000000;
+}
+
+.features > a {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 18px;
+}
+
+.features > a:active {
+    opacity: 0.3;
+}
+
+
 .index-title {
-    font-family: "Roboto Bold", sans-serif;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 24px;
     line-height: 30px;
     color: #000000;
-    font-weight: bold;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    border: none;
 }
 
 .catalog-subheading {
-    font-family: "Roboto Bold", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 30px;
     color: #000000;
@@ -68,10 +148,36 @@ body {
     margin-bottom: 20px;
 }
 
-.features {
-    width: 400px;
+.slider {
+    width: 1160px;
     height: 415px;
 }
+
+.slider > input[type="radio"] {
+    display: none;
+}
+
+.slider-wrap {
+    width: 1160px;
+    height: 415px;
+    overflow: hidden;
+}
+
+.slider-slides {
+    width: 300%;
+    height: 415px;
+}
+
+.slide {
+    width: 1160px;
+    float: left;
+}
+
+.features {
+    width: 560px;
+    height: 415px;
+}
+
 
 .index-content-top {
     display: flex;

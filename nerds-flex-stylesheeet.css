@@ -11,7 +11,6 @@ body {
     font-weight: 400;
 
     background-image: url("img/white back background.png");
-    background-repeat: no-repeat;
 }
 
 .index-header {
@@ -33,15 +32,12 @@ a {
 }
 
 .main-navigation ul,
-.main-navigation li{
+.main-navigation li {
     display: inline-block;
 }
 
 .main-navigation .nav-list {
     list-style: none;
-}
-.main-navigation li{
-    border: none;
 }
 
 .main-navigation a,
@@ -65,44 +61,139 @@ a {
     opacity: 0.3;
 }
 
-.features > b {
-    font-family: "Roboto", Arial, sans-serif;
+.features b {
     font-size: 55px;
     font-weight: 500;
     line-height: 55px;
     color: #000000;
 }
 
-.features > a {
-    font-family: "Roboto", Arial, sans-serif;
+.btn {
     font-weight: 500;
     color: #ffffff;
     line-height: 18px;
+    text-transform: uppercase;
+
+    text-align: center;
+    vertical-align: middle;
 }
 
-.features > a:active {
+.btn:active {
     opacity: 0.3;
 }
 
-
-.index-title {
-    font-family: "Roboto", Arial, sans-serif;
+.index-content-top .index-title {
     font-size: 24px;
     line-height: 30px;
     color: #000000;
     font-weight: 700;
     text-transform: uppercase;
+}
 
-    border: none;
+.about-us-left b:first-of-type {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #000000;
+}
+
+.about-us-left b:nth-of-type(2),
+.about-us-right b:first-of-type {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about-us-left .orders,
+.about-us-right .assurance ul {
+    list-style: none;
+}
+
+.assurance ul  b{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 10.06px;
+    color: #000000;
+}
+
+.clients-logos img {
+    opacity: 0.2;
+}
+
+.clients-logos img:hover,
+.clients-logos img:focus {
+    opacity: 1;
+}
+
+.clients-logos img:active {
+    opacity: 0.1;
+}
+
+.map {
+    background-image: url("img/map-marker.png"), url("img/layer 2.png");
+    background-size: 15%, cover;
+    background-repeat: no-repeat;
+    background-position: 865px 105px, 0 0;
+}
+
+.contacts b {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #000000;
+}
+
+.contacts {
+    font-style: normal;
+    color: #666666;
+}
+
+.discount-offer b {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.discount-offer p {
+    line-height: 22px;
+    color: #444444;
+}
+
+.log-in h2 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #000000;
+}
+
+.log-in label {
+    font-weight: 700;
+    line-height: 18px;
+    color: #000000;
+}
+
+
+.caption p {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 55px;
+    color: #000000;
 }
 
 .catalog-subheading {
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
+    font-weight: 700;
     line-height: 30px;
     color: #000000;
-    font-weight: bold;
+    text-transform: uppercase;
 }
+
+
+
+
+
+
+
 
 /* flex*/
 
@@ -130,15 +221,6 @@ a {
     height: 65px;
     margin-top: 50px;
     margin-bottom: 20px;
-}
-
-.nav-list,
-.sort-words,
-.sort-arrows,
-.selection {
-    padding: 0;
-    margin: 0;
-    list-style: none;
 }
 
 .user-block {
@@ -197,8 +279,9 @@ a {
 
 .index-content-center {
     height: 790px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .about-us-left {
@@ -212,6 +295,22 @@ a {
     height: 415px;
     padding-top: 40px;
     padding-bottom: 70px;
+}
+
+.clients-logos {
+    width: 1160px;
+    height: 185px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients-logos div {
+    width: 260px;
+    height: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .map {
@@ -269,6 +368,7 @@ a {
 .content-price {
     height: 320px;
 }
+
 .content-net {
     height: 190px;
 }

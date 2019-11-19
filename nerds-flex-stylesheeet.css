@@ -22,6 +22,46 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%; /* картинка не выпадает из родительского контейнера*/
+    height: auto; /* картинка пропорциональная */
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    margin: -1px;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 1160px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.studio-logo {
+    width: 160px;
+    height: 65px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 .studio-logo:hover,
 .studio-logo:focus {
     opacity: 0.8;
@@ -31,32 +71,78 @@ a {
     opacity: 0.3;
 }
 
-.main-navigation ul,
-.main-navigation li {
-    display: inline-block;
+.main-navigation {
+    width: 440px;
+    height: 65px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-.main-navigation .nav-list {
+.main-navigation > .nav-list {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
+    height: 65px;
+    margin: 0;
+}
+
+.main-navigation a {
+    display: block;
+    height: 65px;
+    padding: 17px 0;
+}
+
+.user-block {
+    width: 160px;
+    height: 65px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.user-block .cart {
+    display: block;
+    padding: 17px 0 17px 85px;
+    position: relative;
+    height: 65px;
+}
+
+.user-block .cart::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 45px;
+
+    width: 17px;
+    height: 17px;
+
+    background-image: url("img/cart-icon.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    opacity: 0.3;
 }
 
 .main-navigation a,
-.user-block a {
+.user-block .cart {
     line-height: 30px;
     text-transform: uppercase;
     font-weight: 500;
     color: #000000;
+
+    box-sizing: border-box;
 }
 
 .main-navigation a:hover,
 .main-navigation a:focus,
-.user-block a:hover,
-.user-block a:focus {
+.user-block .cart:hover,
+.user-block .cart:focus {
     color: #fb565a;
 }
 
 .main-navigation a:active,
-.user-block a:active {
+.user-block .cart:active {
     color: #000000;
     opacity: 0.3;
 }
@@ -69,17 +155,77 @@ a {
 }
 
 .btn {
+    display: inline-block;
     font-weight: 500;
     color: #ffffff;
-    line-height: 18px;
     text-transform: uppercase;
-
+    line-height: 50px;
     text-align: center;
     vertical-align: middle;
+    border-radius: 3px;
 }
 
-.btn:active {
-    opacity: 0.3;
+a.learn-more {
+    width: 240px;
+    height: 50px;
+    background-color: #fb565a;
+}
+
+a.learn-more:hover,
+a.learn-more:focus {
+    background-color: #e74246;
+}
+
+a.learn-more:active {
+    background-color: #d7373b;
+    color: rgba(255,255,255,0.3)
+}
+
+a.order {
+    width: 160px;
+    height: 50px;
+}
+
+.web-sites a.order {
+    background-color: #fb565a;
+}
+
+.web-sites a.order:hover,
+.web-sites a.order:focus {
+    background-color: #e74246;
+}
+
+.web-sites a.order:active {
+    background-color: #d7373b;
+    color: rgba(255,255,255,0.3)
+}
+
+.applications a.order {
+    background-color: #00ca74;
+}
+
+.applications a.order:hover,
+.applications a.order:focus {
+    background-color: #00bc6c;
+}
+
+.applications a.order:active {
+    background-color: #00aa62;
+    color: rgba(255,255,255,0.3)
+}
+
+.presentations a.order {
+    background-color: #efc84a;
+}
+
+.presentations a.order:hover,
+.presentations a.order:focus {
+    background-color: #eab534;
+}
+
+.presentations a.order:active {
+    background-color: #e5a722;
+    color: rgba(255,255,255,0.3)
 }
 
 .index-content-top .index-title {
@@ -149,6 +295,79 @@ a {
     color: #666666;
 }
 
+
+.social-networks .social-btn {
+    display: block;
+    width: 79px;
+    height: 79px;
+}
+
+.social-networks .social-btn-vk {
+    background-image: url("img/vk-icon.png"), url("img/Shape 2.png");
+    background-size: 22px 22px, 79px 79px;
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.social-networks .social-btn-fb {
+    background-image: url("img/fb-icon.png"), url("img/Shape 2.png");
+    background-size: 22px 22px, 79px 79px;
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.social-networks .social-btn-inst {
+    background-image: url("img/insta-icon.png"), url("img/Shape 2.png");
+    background-size: 22px 22px, 79px 79px;
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.social-networks .social-btn-vk:hover,
+.social-networks .social-btn-vk:focus {
+    background-image: url("img/vk-icon.png"), url("img/Shape 2 copy 6.png");
+    background-size: 22px 22px, 79px 79px;
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.social-networks .social-btn-fb:hover,
+.social-networks .social-btn-fb:focus {
+    background-image: url("img/fb-icon.png"), url("img/Shape 2 copy 6.png");
+    background-size: 22px 22px, 79px 79px;
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.social-networks .social-btn-inst:hover,
+.social-networks .social-btn-inst:focus {
+    background-image: url("img/insta-icon.png"), url("img/Shape 2 copy 6.png");
+    background-size: 22px 22px, 79px 79px;
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.social-networks .social-btn-vk:active {
+    background-image: url("img/vk-icon.png copy 2.png"), url("img/Shape 2 copy 7.png");
+    background-size: 22px 22px, 79px 79px;
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.social-networks .social-btn-fb:active {
+    background-image: url("img/fb-icon.png copy 2.png"), url("img/Shape 2 copy 7.png");
+    background-size: 22px 22px, 79px 79px;
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.social-networks .social-btn-inst:active {
+    background-image: url("img/insta-icon.png copy 2.png"), url("img/Shape 2 copy 7.png");
+    background-size: 22px 22px, 79px 79px;
+    background-position: 50% 50%, 0 0;
+    background-repeat: no-repeat, no-repeat;
+}
+
 .discount-offer b {
     font-size: 36px;
     font-weight: 700;
@@ -173,7 +392,6 @@ a {
     color: #000000;
 }
 
-
 .caption p {
     font-size: 55px;
     font-weight: 500;
@@ -188,47 +406,33 @@ a {
     text-transform: uppercase;
 }
 
+.net label,
+.list-features label {
+    line-height: 20px;
+}
 
+.sort-words {
+    list-style: none;
+}
 
+.sort-words a{
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-transform: uppercase;
+}
 
+.selection {
+    list-style: none;
+}
 
-
-
+.selection li {
+    display: inline-block;
+}
 
 /* flex*/
 
-.container {
-    width: 1160px;
-    padding: 0 20px;
-    margin: 0 auto;
-}
 
-.header-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.studio-logo {
-    width: 160px;
-    height: 65px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-.main-navigation {
-    width: 760px;
-    height: 65px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
-.user-block {
-    width: 160px;
-    height: 65px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
 
 .slider {
     width: 1160px;
@@ -327,6 +531,8 @@ a {
     height: 80px;
     margin-top: 70px;
     margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .discount-offer {
@@ -408,20 +614,21 @@ a {
 /*Вспомогательные элементы*/
 
 div {
-    border: solid 1px red;
+    outline: solid 1px red;
 }
 
+a,
 .container,
 .features,
 .main-header,
 .index-header,
 .main-footer,
 nav {
-    border: solid 1px green;
+    outline: solid 1px green;
 }
 
 p,
 li,
 h2 {
-    border: solid 1px blue;
+    outline: solid 1px blue;
 }

@@ -35,9 +35,9 @@
                 <div class="content-price">
                     <h2 class="catalog-subheading">Стоимость:</h2>
                     <div class="slider">
-                        <label class="visually-hidden" for="slider-1">Первый слайдер</label>
+                        <label for="slider-1"><span class="visually-hidden">Первый слайдер</span></label>
                         <input type="range" id="slider-1" name="money-units" min="0" max="15000">
-                        <label class="visually-hidden" for="slider-2">Второй слайдер</label>
+                        <label for="slider-2"><span class="visually-hidden">Второй слайдер</span></label>
                         <input type="range" id="slider-2" name="money-units" min="0" max="15000">
                     </div>
                     <div class="slider-value">
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="form-submit">
-                    <label class="visually-hidden" for="form-button">Кнопка отправки формы</label>
+                    <label for="form-button"><span class="visually-hidden">Кнопка отправки формы</span></label>
                     <input class="button action submit" id="form-button" type="submit" value="Показать">
                 </div>
             </form>
@@ -131,7 +131,7 @@
                     <b>Nёrds design studio</b><br>
                     191186, Санкт-Петербург,<br>
                     ул. Б. Конюшенная, д. 19/8<br>
-                    тел. +7 (812) 275-75-75
+                    <br>тел. +7 (812) 275-75-75
                 </p>
                 <a class="btn message-us" href="#">Напишите нам</a>
             </address>
@@ -141,17 +141,17 @@
 <footer class="main-footer">
     <div class="container footer-wrapper">
         <div class="social-networks">
-            <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+            <a class="social-btn social-btn-vk" href="#"><span class="visually-hidden">Вконтакте</span></a>
+            <a class="social-btn social-btn-fb" href="#"><span class="visually-hidden">Фейсбук</span></a>
+            <a class="social-btn social-btn-inst" href="#"><span class="visually-hidden">Инстаграм</span></a>
         </div>
         <div class="discount-offer">
-            <p><b>Давайте дружить, это выгодно!</b></p>
+            <b>Давайте дружить, это выгодно!</b>
             <p>Скидка 10% для друзей из социальных сетей.</p>
         </div>
     </div>
 </footer>
-<section hidden class="log-in">
+<section class="log-in visually-hidden">
     <h2>Напишите нам</h2>
     <form>
         <label for="form-name">Ваше имя:</label>
@@ -159,7 +159,7 @@
         <label for="form-email">Ваш e-mail:</label>
         <input type="email" name="form-email" id="form-email" placeholder="Для отправки ответа">
         <label for="form-letter">Текст письма:</label>
-        <textarea name="form-letter" id="form-letter">Для отправки текста</textarea>
+        <textarea name="form-letter" id="form-letter">В свободной форме</textarea>
         <button class="btn">Отправить</button>
     </form>
 </section>

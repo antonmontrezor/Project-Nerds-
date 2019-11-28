@@ -15,7 +15,6 @@ body {
 
 .index-header {
     background-image: url("img/grey back.png");
-    background-repeat: repeat;
 }
 
 a {
@@ -57,9 +56,9 @@ img {
 
 .studio-logo {
     width: 160px;
-    height: 65px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    height: 68px;
+    margin-top: 48px;
+    margin-bottom: 17px;
 }
 
 .studio-logo:hover,
@@ -73,9 +72,9 @@ img {
 
 .main-navigation {
     width: 440px;
-    height: 65px;
-    margin-top: 50px;
-    margin-bottom:10px;
+    height: 57px;
+    margin-top: 59px;
+    margin-bottom: 17px;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -84,28 +83,28 @@ img {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    height: 65px;
+    height: 57px;
     margin: 0;
 }
 
 .main-navigation a {
     display: block;
-    height: 65px;
+    height: 57px;
     padding: 17px 0;
 }
 
 .user-block {
     width: 160px;
-    height: 65px;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    height: 57px;
+    margin-top: 59px;
+    margin-bottom: 17px;
 }
 
 .user-block .cart {
     display: block;
     padding: 17px 0 17px 85px;
     position: relative;
-    height: 65px;
+    height: 57px;
 }
 
 .user-block .cart::before {
@@ -712,12 +711,33 @@ a.order {
     background-repeat: no-repeat;
     background-size: cover;
     top: 55px;
-    left: 140px;
+    left: 180px;
     text-align: center;
 }
 
 .contacts p {
-    margin: 0;
+    margin: 0 0 40px 0;
+}
+
+.contacts b {
+    display: inline-block;
+    margin: 48px 0 25px 0;
+}
+
+.contacts .message-us {
+    width: 220px;
+    height: 50px;
+    background-color: #fb565a;
+}
+
+.contacts .message-us:hover,
+.contacts .message-us:focus {
+    background-color: #e74246;
+}
+
+.contacts .message-us:active {
+    background-color: #d7373b;
+    color: rgba(255,255,255,0.3)
 }
 
 .footer-wrapper {
@@ -742,10 +762,29 @@ a.order {
     margin-bottom: 70px;
 }
 
+.discount-offer b {
+    display: inline-block;
+    margin: 7px 0 12px 0;
+}
+
+.discount-offer p {
+    margin: 0 0 8px;
+}
+
+.main-header {
+    background-image: url("img/grey back.png");
+}
+
 .caption {
-    height: 75px;
-    width: 760px;
-    padding: 65px 200px 100px 200px;
+    width: 1160px;
+    padding: 60px 200px 110px 200px;
+    text-align: center;
+}
+
+.caption p {
+    display: inline-block;
+    margin: 0;
+    height: 52px;
 }
 
 .content-wrapper {
@@ -755,12 +794,12 @@ a.order {
 
 .shop-content-left {
     width: 260px;
-    height: 2230px;
+    height: 2227px;
 }
 
 .shop-content-right {
     width: 760px;
-    height: 2230px;
+    height: 2227px;
 }
 
 .content-price,
@@ -771,18 +810,153 @@ a.order {
 }
 
 .content-price {
-    height: 320px;
+    height: 322px;
+}
+
+.catalog-subheading {
+    height: 28px;
+}
+
+.content-price .catalog-subheading:first-child,
+.sort .catalog-subheading {
+    margin: 57px 0 49px 0;
+}
+
+.catalog-slider {
+    width: 260px;
+    height: 80px;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.catalog-slider input[type="range"] {
+    display: inline-block;
+    width: 190px;
+    height: 2px;
+    margin-top: 39px;
+}
+
+.slider-range {
+    width: 260px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 56px;
+}
+
+.slider-range .range-value {
+    width: 130px;
+    height: 40px;
+}
+
+.range-value input[type="text"]{
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.range-value input[type="text"]{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    color: #283136;
+    font-weight: 400;
+    margin-left: 11px;
+}
+
+.range-value.max label {
+    margin-left: 12px;
+}
+
+.range-value label {
+    line-height: 22px;
+    text-transform: uppercase;
 }
 
 .content-net {
     height: 190px;
 }
 
-.content-features {
-    height: 275px;
+.content-net .catalog-subheading {
+    margin: 0 0 14px;
 }
 
-.form-submit {
+.content-net .net {
+    height: 106px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.content-net label {
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 36px;
+    position: relative;
+    height: 25px;
+    padding-top: 3px;
+}
+
+.content-net label:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-image: url("img/radio-off.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content-net .net input[type="radio"] {
+    display: none;
+    margin-bottom: 44px;
+}
+
+#adaptive:checked + .adaptive-net:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("img/radio-on.png");
+}
+
+#fixed:checked + .fixed-net:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("img/radio-on.png");
+}
+
+#rubber:checked + .rubber-net:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("img/radio-on.png");
+}
+
+
+
+
+
+
+
+.content-features {
+    height: 274px;
+}
+
+.button.submit {
     height: 50px;
 }
 
@@ -814,6 +988,10 @@ a.order {
 
 div {
     outline: solid 1px red;
+}
+
+label {
+    outline: solid 1px pink;
 }
 
 a,

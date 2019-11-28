@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nerds-flex-stylesheeet.css" beforeDir="false" afterPath="$PROJECT_DIR$/nerds-flex-stylesheeet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nerds.catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/nerds.catalog.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +24,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.42252603">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="24">
-                  <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+                <state relative-caret-position="503">
+                  <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
                   <folding>
                     <element signature="e#92#99#0" expanded="true" />
                     <element signature="e#104#111#0" expanded="true" />
@@ -36,11 +37,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-491">
-                  <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
+                <state relative-caret-position="288">
+                  <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
                 </state>
               </provider>
             </entry>
@@ -52,8 +53,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nerds-flex-stylesheeet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="7557">
-                  <caret line="713" lean-forward="true" selection-start-line="713" selection-end-line="713" />
+                <state relative-caret-position="633">
+                  <caret line="929" lean-forward="true" selection-start-line="929" selection-end-line="929" />
                 </state>
               </provider>
             </entry>
@@ -85,9 +86,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/nerds-flex-stylesheeet.css" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/form-demo.html" />
         <option value="$USER_HOME$/AppData/Local/Temp/selectors.css" />
-        <option value="$PROJECT_DIR$/nerds.catalog.html" />
         <option value="$PROJECT_DIR$/external.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/nerds.catalog.html" />
         <option value="$PROJECT_DIR$/nerds-flex-stylesheeet.css" />
       </list>
     </option>
@@ -193,7 +194,7 @@
       <workItem from="1570151647772" duration="22509000" />
       <workItem from="1571618479737" duration="3319000" />
       <workItem from="1573913621662" duration="29834000" />
-      <workItem from="1574307580592" duration="32780000" />
+      <workItem from="1574307580592" duration="44277000" />
     </task>
     <task id="LOCAL-00001" summary="Закончил разметку первой страницы">
       <created>1560133275854</created>
@@ -349,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574141560856</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="дороботал проект">
+      <created>1574831678631</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1574831678632</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180370000" />
+    <option name="totallyTimeSpent" value="191867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -371,8 +379,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49609375" visible="true" weight="0.041078307" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50390625" side_tool="true" visible="true" weight="0.041078307" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49609375" visible="true" weight="0.03851091" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50390625" side_tool="true" visible="true" weight="0.03851091" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -595,17 +603,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="102" column="22" selection-start-line="102" selection-start-column="22" selection-end-line="102" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="117" column="38" lean-forward="true" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="38" />
+        <state relative-caret-position="503">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
           <folding>
             <element signature="e#92#99#0" expanded="true" />
             <element signature="e#104#111#0" expanded="true" />
@@ -613,10 +614,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="432" column="22" selection-start-line="432" selection-start-column="22" selection-end-line="432" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nerds-flex-stylesheeet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7557">
-          <caret line="713" lean-forward="true" selection-start-line="713" selection-end-line="713" />
+        <state relative-caret-position="633">
+          <caret line="929" lean-forward="true" selection-start-line="929" selection-end-line="929" />
         </state>
       </provider>
     </entry>

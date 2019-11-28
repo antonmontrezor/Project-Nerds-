@@ -34,17 +34,15 @@
             <form action="#" method="get">
                 <div class="content-price">
                     <h2 class="catalog-subheading">Стоимость:</h2>
-                    <div class="slider">
+                    <div class="catalog-slider">
                         <label for="slider-1"><span class="visually-hidden">Первый слайдер</span></label>
                         <input type="range" id="slider-1" name="money-units" min="0" max="15000">
-                        <label for="slider-2"><span class="visually-hidden">Второй слайдер</span></label>
-                        <input type="range" id="slider-2" name="money-units" min="0" max="15000">
                     </div>
-                    <div class="slider-value">
-                        <div class="min-value">
+                    <div class="slider-range">
+                        <div class="range-value min">
                             <label>От<input type="text" value="0"></label>
                         </div>
-                        <div class="max-value">
+                        <div class="range-value max">
                             <label>До<input type="text" value="15000"></label>
                         </div>
                     </div>
@@ -52,9 +50,12 @@
                 <div class="content-net">
                     <h2 class="catalog-subheading">Сетка:</h2>
                     <div class="net">
-                        <label><input type="radio" name="net-type" value="adaptive" checked>Адаптивная</label>
-                        <label><input type="radio" name="net-type" value="fixed">Фиксированная</label>
-                        <label><input type="radio" name="net-type" value="rubber">Резиновая</label>
+                        <input id="adaptive" type="radio" name="net-type" value="adaptive" checked>
+                        <label class="adaptive-net" for="adaptive">Адаптивная</label>
+                        <input id="fixed" type="radio" name="net-type" value="fixed">
+                        <label class="fixed-net" for="fixed">Фиксированная</label>
+                        <input id="rubber" type="radio" name="net-type" value="rubber">
+                        <label class="rubber-net" for="rubber">Резиновая</label>
                     </div>
                 </div>
                 <div class="content-features">
@@ -91,7 +92,7 @@
                     <div>
                         <img src="img/img-sedona.jpg" alt="Информационный сайт для туристов &laquo;Седона&raquo;">
                     </div>
-                    <div>
+                    <div class="visually-hidden">
                         <p><b>Sedona</b><br>
                             Информационный сайт<br>
                             для туристов</p>
@@ -99,19 +100,59 @@
                     </div>
                 </div>
                 <div class="item pink">
-                    <img src="img/img-pink.jpg" alt="Мобильное приложение &laquo;Пинк&raquo;">
+                    <div>
+                        <img src="img/img-pink.jpg" alt="Мобильное приложение &laquo;Пинк&raquo;">
+                    </div>
+                    <div class="visually-hidden">
+                        <p><b>Pink App</b><br>
+                            Продуктовый лендинг<br>
+                            приложения для iOS и Android</p>
+                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    </div>
                 </div>
                 <div class="item borodinski">
-                    <img src="img/img-barbershop.jpg" alt="Барбершоп &laquo;Бородинский&raquo;">
+                    <div>
+                        <img src="img/img-barbershop.jpg" alt="Барбершоп &laquo;Бородинский&raquo;">
+                    </div>
+                    <div class="visually-hidden">
+                        <p><b>Barbershop</b><br>
+                            Сайт салона красоты<br>
+                            Для мужчин, да</p>
+                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    </div>
                 </div>
                 <div class="item mishka">
-                    <img src="img/img-mishka.jpg" alt="Онлайн магазин &laquo;Мишка&raquo;">
+                    <div>
+                        <img src="img/img-mishka.jpg" alt="Онлайн магазин &laquo;Мишка&raquo;">
+                    </div>
+                    <div class="visually-hidden">
+                        <p><b>Mishka</b><br>
+                            Интерент магазин<br>
+                            вязаных игрушек</p>
+                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    </div>
                 </div>
                 <div class="item aplus">
-                    <img src="img/img-aplus.jpg" alt="Сервис &laquo;А+&raquo;">
+                    <div>
+                        <img src="img/img-aplus.jpg" alt="Сервис &laquo;А+&raquo;">
+                    </div>
+                    <div class="visually-hidden">
+                        <p><b>A Plus</b><br>
+                            Лендинг курсов повышения<br>
+                            квалификации</p>
+                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    </div>
                 </div>
                 <div class="item kvast">
-                    <img src="img/img-kvast.jpg" alt="Крафтовый квас &laquo;Кваст&raquo;">
+                    <div>
+                        <img src="img/img-kvast.jpg" alt="Крафтовый квас &laquo;Кваст&raquo;">
+                    </div>
+                    <div class="visually-hidden">
+                        <p><b>Кваст</b><br>
+                            Промо-сайт производителя<br>
+                            крафтового кваса</p>
+                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    </div>
                 </div>
             </div>
             <div class="page-selection">

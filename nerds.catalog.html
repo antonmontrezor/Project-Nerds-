@@ -61,16 +61,21 @@
                 <div class="content-features">
                     <h2 class="catalog-subheading">Особенности:</h2>
                     <div class="list-features">
-                        <label><input type="checkbox" checked>Слайдер</label>
-                        <label><input type="checkbox" >Блок преимуществ</label>
-                        <label><input type="checkbox" checked>Новости</label>
-                        <label><input type="checkbox" >Галерея</label>
-                        <label><input type="checkbox" >Корзина</label>
+                        <input id="features-slider" type="checkbox" name="features" value="slider" checked>
+                        <label class="features-slider" for="features-slider">Слайдер</label>
+                        <input id="features-block" type="checkbox" name="features" value="block">
+                        <label class="features-block" for="features-block">Блок преимуществ</label>
+                        <input id="features-news" type="checkbox" name="features" value="news" checked>
+                        <label class="features-news" for="features-news">Новости</label>
+                        <input id="features-gallery" type="checkbox" name="features" value="gallery">
+                        <label class="features-gallery" for="features-gallery">Галерея</label>
+                        <input id="features-cart" type="checkbox" name="features" value="cart">
+                        <label class="features-cart" for="features-cart">Корзина</label>
                     </div>
                 </div>
                 <div class="form-submit">
                     <label for="form-button"><span class="visually-hidden">Кнопка отправки формы</span></label>
-                    <input class="button action submit" id="form-button" type="submit" value="Показать">
+                    <input class="btn submit" id="form-button" type="submit" value="Показать">
                 </div>
             </form>
         </div>
@@ -83,84 +88,96 @@
                     <li><a href="#">По названию</a></li>
                 </ul>
                 <ul class="sort-arrows">
-                    <li><a href="#">Первая стрелка сортировки товаров</a></li>
-                    <li><a href="#">Вторая стрелка сотрировки товаров</a></li>
+                    <li><a href="#"><span class="visually-hidden">Первая стрелка сортировки товаров</span></a></li>
+                    <li><a href="#"><span class="visually-hidden">Вторая стрелка сотрировки товаров</span></a></li>
                 </ul>
             </div>
             <div class="shop-catalog ">
                 <div class="item sedona">
-                    <div>
-                        <img src="img/img-sedona.jpg" alt="Информационный сайт для туристов &laquo;Седона&raquo;">
-                    </div>
-                    <div class="visually-hidden">
-                        <p><b>Sedona</b><br>
-                            Информационный сайт<br>
-                            для туристов</p>
-                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    <div class="item-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="img/img-sedona.jpg" alt="Информационный сайт для туристов &laquo;Седона&raquo;">
+                        </div>
+                        <div class="visually-hidden item-card">
+                            <p><b>Sedona</b><br>
+                                Информационный сайт<br>
+                                для туристов</p>
+                            <a class="btn purchase" href="#">9900 Руб.</a>
+                        </div>
                     </div>
                 </div>
                 <div class="item pink">
-                    <div>
-                        <img src="img/img-pink.jpg" alt="Мобильное приложение &laquo;Пинк&raquo;">
-                    </div>
-                    <div class="visually-hidden">
-                        <p><b>Pink App</b><br>
-                            Продуктовый лендинг<br>
-                            приложения для iOS и Android</p>
-                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    <div class="item-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="img/img-pink.jpg" alt="Мобильное приложение &laquo;Пинк&raquo;">
+                        </div>
+                        <div class="visually-hidden item-card">
+                            <p><b>Pink App</b><br>
+                                Продуктовый лендинг<br>
+                                приложения для iOS и Android</p>
+                            <a class="btn purchase" href="#">9900 Руб.</a>
+                        </div>
                     </div>
                 </div>
                 <div class="item borodinski">
-                    <div>
-                        <img src="img/img-barbershop.jpg" alt="Барбершоп &laquo;Бородинский&raquo;">
-                    </div>
-                    <div class="visually-hidden">
-                        <p><b>Barbershop</b><br>
-                            Сайт салона красоты<br>
-                            Для мужчин, да</p>
-                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    <div class="item-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="img/img-barbershop.jpg" alt="Барбершоп &laquo;Бородинский&raquo;">
+                        </div>
+                        <div class="visually-hidden item-card">
+                            <p><b>Barbershop</b><br>
+                                Сайт салона красоты<br>
+                                Для мужчин, да</p>
+                            <a class="btn purchase" href="#">9900 Руб.</a>
+                        </div>
                     </div>
                 </div>
                 <div class="item mishka">
-                    <div>
-                        <img src="img/img-mishka.jpg" alt="Онлайн магазин &laquo;Мишка&raquo;">
-                    </div>
-                    <div class="visually-hidden">
-                        <p><b>Mishka</b><br>
-                            Интерент магазин<br>
-                            вязаных игрушек</p>
-                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    <div class="item-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="img/img-mishka.jpg" alt="Онлайн магазин &laquo;Мишка&raquo;">
+                        </div>
+                        <div class="visually-hidden item-card">
+                            <p><b>Mishka</b><br>
+                                Интерент магазин<br>
+                                вязаных игрушек</p>
+                            <a class="btn purchase" href="#">9900 Руб.</a>
+                        </div>
                     </div>
                 </div>
                 <div class="item aplus">
-                    <div>
-                        <img src="img/img-aplus.jpg" alt="Сервис &laquo;А+&raquo;">
-                    </div>
-                    <div class="visually-hidden">
-                        <p><b>A Plus</b><br>
-                            Лендинг курсов повышения<br>
-                            квалификации</p>
-                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    <div class="item-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="img/img-aplus.jpg" alt="Сервис &laquo;А+&raquo;">
+                        </div>
+                        <div class="visually-hidden item-card">
+                            <p><b>A Plus</b><br>
+                                Лендинг курсов повышения<br>
+                                квалификации</p>
+                            <a class="btn purchase" href="#">9900 Руб.</a>
+                        </div>
                     </div>
                 </div>
                 <div class="item kvast">
-                    <div>
-                        <img src="img/img-kvast.jpg" alt="Крафтовый квас &laquo;Кваст&raquo;">
-                    </div>
-                    <div class="visually-hidden">
-                        <p><b>Кваст</b><br>
-                            Промо-сайт производителя<br>
-                            крафтового кваса</p>
-                        <a class="btn purchase" href="#">9900 Руб.</a>
+                    <div class="item-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="img/img-kvast.jpg" alt="Крафтовый квас &laquo;Кваст&raquo;">
+                        </div>
+                        <div class="visually-hidden item-card">
+                            <p><b>Кваст</b><br>
+                                Промо-сайт производителя<br>
+                                крафтового кваса</p>
+                            <a class="btn purchase" href="#">9900 Руб.</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="page-selection">
                 <ul class="selection">
-                    <li><a class="button page-select" href="#">1</a></li>
-                    <li><a class="button page-select" href="#">2</a></li>
-                    <li><a class="button page-select" href="#">3</a></li>
-                    <li><a class="button action next" href="#">Следующая</a></li>
+                    <li><a class="btn page-select" href="#">1</a></li>
+                    <li><a class="btn page-select" href="#">2</a></li>
+                    <li><a class="btn page-select" href="#">3</a></li>
+                    <li><a class="btn action-next" href="#">Следующая</a></li>
                 </ul>
             </div>
         </div>

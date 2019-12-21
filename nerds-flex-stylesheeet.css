@@ -59,6 +59,7 @@ img {
     height: 68px;
     margin-top: 48px;
     margin-bottom: 17px;
+    cursor: pointer;
 }
 
 .studio-logo:hover,
@@ -162,6 +163,7 @@ img {
     text-align: center;
     vertical-align: middle;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .btn:active {
@@ -271,6 +273,7 @@ a.order {
 
 .clients-logos img {
     opacity: 0.2;
+    cursor: pointer;
 }
 
 .clients-logos img:hover,
@@ -482,6 +485,7 @@ a.order {
     background-color: #ffffff;
     top: 320px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .slider-controls .slider-button:first-child {
@@ -922,6 +926,7 @@ a.order {
     position: absolute;
     top: 0;
     left: 0;
+    cursor: pointer;
 }
 
 
@@ -1018,6 +1023,7 @@ a.order {
     position: absolute;
     top: 0;
     left: 0;
+    cursor: pointer;
 }
 
 #features-slider:checked + .features-slider:before,
@@ -1286,13 +1292,6 @@ a.order {
     color: rgba(255,255,255,0.3)
 }
 
-
-
-
-
-
-
-
 .page-selection {
     width: 760px;
     height: 170px;
@@ -1344,7 +1343,7 @@ a.order {
     background-color: #d5d5d5;
 }
 
-/*Вспомогательные элементы
+/*Вспомогательные элементы*
 
 div {
     outline: solid 1px red;

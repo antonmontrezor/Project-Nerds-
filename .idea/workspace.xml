@@ -5,7 +5,6 @@
       <change afterPath="$PROJECT_DIR$/external.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nerds-flex-stylesheeet.css" beforeDir="false" afterPath="$PROJECT_DIR$/nerds-flex-stylesheeet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nerds.catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/nerds.catalog.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +25,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="867">
-                  <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+                <state relative-caret-position="561">
+                  <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
                   <folding>
                     <element signature="e#92#99#0" expanded="true" />
                     <element signature="e#104#111#0" expanded="true" />
@@ -39,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="538">
-                  <caret line="183" column="10" lean-forward="true" selection-start-line="183" selection-start-column="10" selection-end-line="183" selection-end-column="10" />
+                <state relative-caret-position="85">
+                  <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -52,8 +51,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/nerds-flex-stylesheeet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="242">
-                  <caret line="1346" column="26" lean-forward="true" selection-start-line="1346" selection-start-column="26" selection-end-line="1346" selection-end-column="26" />
+                <state relative-caret-position="34">
+                  <caret line="997" column="12" selection-start-line="997" selection-start-column="12" selection-end-line="997" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -93,10 +92,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="920" />
+    <option name="width" value="995" />
+    <option name="height" value="1015" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -194,7 +192,12 @@
       <workItem from="1571618479737" duration="3319000" />
       <workItem from="1573913621662" duration="29834000" />
       <workItem from="1574307580592" duration="64907000" />
-      <workItem from="1575512943160" duration="18281000" />
+      <workItem from="1575512943160" duration="18630000" />
+      <workItem from="1575608284304" duration="110000" />
+      <workItem from="1576119412489" duration="875000" />
+      <workItem from="1576120936485" duration="1338000" />
+      <workItem from="1576205440525" duration="5302000" />
+      <workItem from="1576885746015" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="Закончил разметку первой страницы">
       <created>1560133275854</created>
@@ -364,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574920041002</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="дороботал проект">
+      <created>1575607959536</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1575607959536</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230778000" />
+    <option name="totallyTimeSpent" value="239369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -386,8 +396,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49544272" visible="true" weight="0.042362" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5045573" side_tool="true" visible="true" weight="0.042362" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49479166" visible="true" weight="0.1309371" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5052083" side_tool="true" weight="0.03851091" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -619,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        <state relative-caret-position="561">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="e#92#99#0" expanded="true" />
             <element signature="e#104#111#0" expanded="true" />
@@ -628,17 +638,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
+    <entry file="file://$PROJECT_DIR$/nerds-flex-stylesheeet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="183" column="10" lean-forward="true" selection-start-line="183" selection-start-column="10" selection-end-line="183" selection-end-column="10" />
+        <state relative-caret-position="34">
+          <caret line="997" column="12" selection-start-line="997" selection-start-column="12" selection-end-line="997" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nerds-flex-stylesheeet.css">
+    <entry file="file://$PROJECT_DIR$/nerds.catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="1346" column="26" lean-forward="true" selection-start-line="1346" selection-start-column="26" selection-end-line="1346" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="43" column="30" lean-forward="true" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>

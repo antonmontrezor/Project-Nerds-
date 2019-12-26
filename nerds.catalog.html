@@ -10,7 +10,7 @@
 <header class="main-header">
     <div class="container header-wrapper">
         <section class="studio-logo">
-            <img src="img/nerds-logo.png" alt="Дизайн-студия &laquo;Нёрдс&raquo;">
+            <img src="img/nerds-logo.png" alt="Дизайн-студия &laquo;Нёрдс&raquo;" tabindex="0">
         </section>
         <nav class="main-navigation">
             <ul class="nav-list">
@@ -88,8 +88,8 @@
                     <li><a href="#">По названию</a></li>
                 </ul>
                 <ul class="sort-arrows">
-                    <li><a href="#"><span class="visually-hidden">Первая стрелка сортировки товаров</span></a></li>
-                    <li><a href="#"><span class="visually-hidden">Вторая стрелка сотрировки товаров</span></a></li>
+                    <li><a href="#"><span class="visually-hidden">Стрелка сортировки товаров &laquo;Вниз&raquo;</span></a></li>
+                    <li><a href="#"><span class="visually-hidden">Стрелка сотрировки товаров &laquo;Вверх&raquo;</span></a></li>
                 </ul>
             </div>
             <div class="shop-catalog ">
@@ -209,16 +209,23 @@
         </div>
     </div>
 </footer>
-<section class="log-in visually-hidden">
+<section class="visually-hidden modal-log-in">
+    <button class="modal-close">Закрыть</button>
     <h2>Напишите нам</h2>
-    <form>
-        <label for="form-name">Ваше имя:</label>
-        <input type="text" name="form-name" id="form-name" placeholder="Представьтесь, пожалуйста">
-        <label for="form-email">Ваш e-mail:</label>
-        <input type="email" name="form-email" id="form-email" placeholder="Для отправки ответа">
-        <label for="form-letter">Текст письма:</label>
-        <textarea name="form-letter" id="form-letter">В свободной форме</textarea>
-        <button class="btn">Отправить</button>
+    <form class="form-log-in" action="#" method="get">
+        <p>
+            <label for="form-name">Ваше имя:</label>
+            <input type="text" name="form-name" id="form-name" placeholder="Представьтесь, пожалуйста" pattern="^[A-Za-zА-Яа-яЁё\s]+$" title="Только кирилличные или латинские буквы"></p>
+        <p>
+            <label for="form-email">Ваш e-mail:</label>
+            <input type="email" name="form-email" id="form-email" placeholder="Для отправки ответа"></p>
+        <p>
+            <label for="form-letter">Текст письма:</label>
+            <textarea name="form-letter" id="form-letter" placeholder="В свободной форме"></textarea>
+        </p>
+        <p>
+            <button class="btn">Отправить</button>
+        </p>
     </form>
 </section>
 </body>

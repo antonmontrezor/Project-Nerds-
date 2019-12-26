@@ -171,6 +171,10 @@ img {
 }
 
 a.learn-more {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    z-index: 1;
     width: 240px;
     height: 50px;
     background-color: #fb565a;
@@ -1100,6 +1104,7 @@ a.order {
 .btn.submit:active {
     color: rgba(0, 0, 0, 0.3);
     background-color: #d5d5d5;
+    outline: none;
 }
 
 .sort {
@@ -1200,12 +1205,6 @@ a.order {
     height: 1923px;
 }
 
-.shop-catalog .item:hover,
-.shop-catalog .item:focus {
-    background-image: url("img/browser.png");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-}
 .shop-catalog .item {
     width: 360px;
     height: 575px;
@@ -1217,6 +1216,12 @@ a.order {
     overflow: hidden;
 }
 
+.shop-catalog .item:hover,
+.shop-catalog .item:focus {
+    background-image: url("img/browser.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
 .shop-catalog .item:hover,
 .shop-catalog .item:focus {
     box-shadow: 0 6px 15px rgba(0,1,1, 0.25);
@@ -1341,6 +1346,182 @@ a.order {
 .selection .action-next:hover,
 .selection .action-next:focus {
     background-color: #d5d5d5;
+}
+
+.modal-log-in {
+    position: fixed;
+    bottom: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 760px;
+    padding: 75px 50px 85px 50px;
+
+    color: #000;
+
+    background-image: url("img/white back.png");
+    background-position: 0 0;
+    background-repeat: repeat;
+
+    box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+}
+
+.modal-close {
+    position: absolute;
+    top: 78px;
+    right: 90px;
+
+    width: 21px;
+    height: 21px;
+
+    background-image: url("img/close-cross.png");
+    background-color: transparent;
+    opacity: 0.3;
+
+    font-size: 0;
+    border: 0;
+
+    cursor: pointer;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    opacity: 1;
+}
+
+.modal-close:active {
+    opacity: 0.1;
+    outline: none;
+}
+
+.modal-log-in h2 {
+    margin: 0 0 50px;
+
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px;
+
+}
+
+.form-log-in {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-log-in p {
+    width: 360px;
+    margin: 0 0 35px;
+}
+
+.form-log-in p:nth-child(3) {
+    width: 760px;
+    margin-bottom: 47px;
+}
+
+.form-log-in label {
+    display: inline-block;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.form-log-in input {
+    box-sizing: border-box;
+    width: 360px;
+    padding: 15px 15px;
+}
+
+.form-log-in textarea {
+    box-sizing: border-box;
+    width: 760px;
+    padding: 15px 15px 88px 15px;
+    resize: none;
+}
+
+.form-log-in input,
+.form-log-in textarea {
+    font: inherit;
+    line-height: 18px;
+    color: #444444;
+
+    border: 2px solid #d7dcde;
+    border-radius: 3px;
+}
+
+.form-log-in input::-moz-placeholder,
+.form-log-in textarea::-moz-placeholder  {color: rgba(68, 68, 68, 0.5);}
+.form-log-in input::-webkit-input-placeholder,
+.form-log-in textarea::-webkit-input-placeholder {color: rgba(68, 68, 68, 0.5);}
+.form-log-in input:-ms-input-placeholder,
+.form-log-in textarea:-ms-input-placeholder {color: rgba(68, 68, 68, 0.5);}
+.form-log-in input::-ms-input-placeholder,
+.form-log-in textarea::-ms-input-placeholder {color: rgba(68, 68, 68, 0.5);}
+.form-log-in input::placeholder,
+.form-log-in textarea::placeholder {color: rgba(68, 68, 68, 0.5);}
+
+.form-log-in input:hover,
+.form-log-in textarea:hover {
+    border: 2px solid #b4b9bb;
+}
+
+.form-log-in input:focus,
+.form-log-in textarea:focus {
+    border: 2px solid #000000;
+    outline: none;
+}
+
+.form-log-in input:focus::-moz-placeholder,
+.form-log-in textarea:focus::-moz-placeholder {color: #444444;}
+.form-log-in input:focus::-webkit-input-placeholder,
+.form-log-in textarea:focus::-webkit-input-placeholder {color: #444444;}
+.form-log-in input:focus:-ms-input-placeholder,
+.form-log-in textarea:focus:-ms-input-placeholder {color: #444444;}
+.form-log-in input:focus::-ms-input-placeholder,
+.form-log-in textarea:focus::-ms-input-placeholder {color: #444444;}
+.form-log-in input:focus::placeholder,
+.form-log-in textarea:focus::placeholder {color: #444444;}
+
+.form-log-in input:focus:invalid,
+.form-log-in textarea:focus:invalid {
+    border: 2px solid #e74246;
+    outline: none;
+}
+
+/*Для того, чтобы только при неправильном вводе - invalid стили менялись, нужно убрать required.
+Последний делаем форму невалидной сразу, и сразу будут стили invalid применятся на все поля, хотя мы
+их даже не трогаем*/
+
+.form-log-in input:focus:invalid::-moz-placeholder,
+.form-log-in textarea:focus:invalid::-moz-placeholder {color: #e74246;}
+.form-log-in input:focus:invalid::-webkit-input-placeholder,
+.form-log-in textarea:focus:invalid::-webkit-input-placeholder {color: #e74246;}
+.form-log-in input:focus:invalid:-ms-input-placeholder,
+.form-log-in textarea:focus:invalid:-ms-input-placeholder {color: #e74246;}
+.form-log-in input:focus:invalid::-ms-input-placeholder,
+.form-log-in textarea:focus:invalid::-ms-input-placeholder {color: #e74246;}
+.form-log-in input:focus:invalid::placeholder,
+.form-log-in textarea:focus:invalid::placeholder {color: #e74246;}
+
+.form-log-in .btn {
+    padding: 0;
+    border: none;
+    width: 260px;
+    height: 50px;
+    font: inherit;
+    font-weight: 500;
+    background-color: #fb565a;
+}
+
+.form-log-in .btn:hover,
+.form-log-in .btn:focus {
+    background-color: #e74246;
+}
+
+.form-log-in .btn:active {
+    background-color: #d7373b;
+    color: rgba(255,255,255,0.3);
+    outline: none;
 }
 
 /*Вспомогательные элементы*

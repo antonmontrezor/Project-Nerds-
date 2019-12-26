@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8">
     <title>Дизайн-студия &laquo;Нёрдс&raquo;</title>
-    <link href="nerds-flex-stylesheeet.css" rel="stylesheet">
+    <link href="style.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
 <header class="index-header">
     <div class="container header-wrapper">
         <section class="studio-logo">
-            <img src="img/nerds-logo.png" alt="Дизайн-студия &laquo;Нёрдс&raquo;">
+            <img src="img/nerds-logo.png" alt="Дизайн-студия &laquo;Нёрдс&raquo;" tabindex="0">
         </section>
         <nav class="main-navigation">
             <ul class="nav-list">
@@ -28,11 +28,14 @@
             <input type="radio" id="btn-2" name="slider-radio">
             <input type="radio" id="btn-3" name="slider-radio">
             <div class="slider-controls">
-                <label for="btn-1" class="slider-button"></label>
-                <label for="btn-2" class="slider-button"></label>
-                <label for="btn-3" class="slider-button"></label>
+                <label for="btn-1" class="slider-button" tabindex="0"></label>
+                <label for="btn-2" class="slider-button" tabindex="0"></label>
+                <label for="btn-3" class="slider-button" tabindex="0"></label>
             </div>
             <div class="slider-wrap">
+                <div class="btn-wrap">
+                    <a class="btn learn-more" href="#">Узнай больше</a>
+                </div>
                 <div class="slider-slides">
                     <div class="slide">
                         <div class="features feature-1">
@@ -40,7 +43,6 @@
                                 скурпулезно</b>
                             <p>Математически выверенный дизайн<br>
                                 для вашего сайта или мобильного приложения.</p>
-                            <a class="btn learn-more" href="#">Узнай больше</a>
                         </div>
                     </div>
                     <div class="slide">
@@ -48,7 +50,6 @@
                             <b>Любим математику<br>как никто другой</b>
                             <p>Никакого креатива, только математические формулы<br>
                                 для расчета идеальных пропорций</p>
-                            <a class="btn learn-more" href="#">Узнай больше</a>
                         </div>
                     </div>
                     <div class="slide">
@@ -56,7 +57,6 @@
                             <b>Только ночь,<br>только хардкор</b>
                             <p>Работать днем, как все? Мы против этого.<br>
                             Ближе к полуночи работа только начинается.</p>
-                            <a class="btn learn-more" href="#">Узнай больше</a>
                         </div>
                     </div>
                 </div>
@@ -164,16 +164,23 @@
         </div>
     </div>
 </footer>
-<section class="log-in visually-hidden">
+<section class="visually-hidden modal-log-in">
+    <button class="modal-close">Закрыть</button>
     <h2>Напишите нам</h2>
-    <form>
-        <label for="form-name">Ваше имя:</label>
-        <input type="text" name="form-name" id="form-name" placeholder="Представьтесь, пожалуйста">
-        <label for="form-email">Ваш e-mail:</label>
-        <input type="email" name="form-email" id="form-email" placeholder="Для отправки ответа">
-        <label for="form-letter">Текст письма:</label>
-        <textarea name="form-letter" id="form-letter">В свободной форме</textarea>
-        <button class="btn">Отправить</button>
+    <form class="form-log-in" action="#" method="get">
+        <p>
+            <label for="form-name">Ваше имя:</label>
+            <input type="text" name="form-name" id="form-name" placeholder="Представьтесь, пожалуйста" pattern="^[A-Za-zА-Яа-яЁё\s]+$" title="Только кирилличные или латинские буквы"></p>
+        <p>
+            <label for="form-email">Ваш e-mail:</label>
+            <input type="email" name="form-email" id="form-email" placeholder="Для отправки ответа"></p>
+        <p>
+            <label for="form-letter">Текст письма:</label>
+            <textarea name="form-letter" id="form-letter" placeholder="В свободной форме"></textarea>
+        </p>
+        <p>
+            <button class="btn">Отправить</button>
+        </p>
     </form>
 </section>
 </body>

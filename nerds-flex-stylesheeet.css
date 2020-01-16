@@ -1240,9 +1240,9 @@ a.order {
 }
 
 .logo-wrapper {
-     width: inherit;
-     height: 575px;
- }
+    width: inherit;
+    height: 575px;
+}
 
 .item .logo-wrapper + .item-card {
     width: 360px;
@@ -1355,7 +1355,9 @@ a.order {
     transform: translateX(-50%);
 
     width: 760px;
-    padding: 75px 50px 85px 50px;
+    padding: 68px 100px 85px 100px;
+
+    z-index: 10;
 
     color: #000;
 
@@ -1395,7 +1397,7 @@ a.order {
 }
 
 .modal-log-in h2 {
-    margin: 0 0 50px;
+    margin: 0 0 41px;
 
     font-weight: 500;
     font-size: 45px;
@@ -1411,7 +1413,7 @@ a.order {
 
 .form-log-in p {
     width: 360px;
-    margin: 0 0 35px;
+    margin: 0 0 33px;
 }
 
 .form-log-in p:nth-child(3) {
@@ -1419,23 +1421,27 @@ a.order {
     margin-bottom: 47px;
 }
 
+.form-log-in p:last-child {
+    margin-bottom: 0;
+}
+
 .form-log-in label {
     display: inline-block;
     line-height: 18px;
     font-weight: 700;
-    margin-bottom: 12px;
+    margin-bottom: 9px;
 }
 
 .form-log-in input {
     box-sizing: border-box;
     width: 360px;
-    padding: 15px 15px;
+    padding: 14px 14px;
 }
 
 .form-log-in textarea {
     box-sizing: border-box;
     width: 760px;
-    padding: 15px 15px 88px 15px;
+    padding: 15px 15px 64px 15px;
     resize: none;
 }
 
@@ -1524,6 +1530,13 @@ a.order {
     outline: none;
 }
 
+.modal-log-in {
+    display: none;
+}
+
+.modal-show {
+    display: block;
+}
 /*Вспомогательные элементы*
 
 div {

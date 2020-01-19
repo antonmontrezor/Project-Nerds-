@@ -1,12 +1,11 @@
 let link = document.querySelector('.btn.message-us');
 let popup = document.querySelector('.modal-log-in');
 let close = document.querySelector('.modal-close');
-let name = popup.querySelector('[name=form-name]');
+let name = popup.querySelector('[type=text]');
 let formCheck = popup.querySelector('form');
 let emailCheck = popup.querySelector('[type=email]');
-let letterCheck = popup.querySelector('[textarea]');
+let letterCheck = popup.querySelector('textarea');
 let storage = localStorage.getItem('username');
-
 
 
 link.addEventListener('click', function (evt) {
@@ -27,17 +26,28 @@ link.addEventListener('click', function (evt) {
 close.addEventListener('click', function (evt) {
     evt.preventDefault();//на всякий случай если поменяют кнопку на ссылку, ссылка не переведет на другую страницу.
     popup.classList.remove('modal-show');
+    popup.classList.remove('modal-error'); //если одному элементу заданы множественные анимации с одинаковыми свойствами,
+    // то будет проигрываться помледняя из-за каскадности. Потому сдесь убираем класс даной анимации.
+
 });
 
 //проверка формы на заполненость полей ввода
 formCheck.addEventListener('submit', function (evt) {
     if (!name.value || !emailCheck.value || !letterCheck.value) {
         evt.preventDefault();//отменяем отправку по адресу в action
-        console.log('Please fill out the form');
+        popup.classList.add('modal-error');
     }
     else {
         localStorage.setItem('username', name.value);
-        console.log('Hallo');
+    }
+});
+
+document.addEventListener('keydown', function (evt) {
+    if (evt.key === 'Escape') {
+        if (popup.classList.contains('modal-show')) {
+            popup.classList.remove('modal-show');
+            popup.classList.remove('modal-error');
+        }
     }
 });
 
